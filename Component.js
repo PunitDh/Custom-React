@@ -19,6 +19,6 @@ export default function Component({ propCount, buttonElem }) {
 		<h4>You can find the source code <a href="https://github.com/PunitDh/Custom-React">here.</a></h4>
 		<p><b>State: ${count}</b> <small>This increments the state using useState </small></p>
 		<p><b>Prop: ${propCount}</b> <small>This changes the prop using useEffect </small></p>
-		<p><b>Prop Doubled:  ${propCountDoubled}</b> <small>This keeps track of the prop value and doubles it.</small></p>
+		<p><b>Prop Doubled:  ${propCountDoubled}</b> <small>This keeps track of the prop value using useMemo and doubles it.</small></p>
 	`
 }
