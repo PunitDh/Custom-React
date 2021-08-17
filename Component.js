@@ -15,8 +15,8 @@ export default function Component({ propCount, buttonElem }) {
 	
 	return `
 		This page looks very basic as it is simply a button that increments a counter. However, underneath the hood, it uses a custom React-like clone to manage state and hooks. You can find the source code <a href="https://github.com/PunitDh/Custom-React">here.</a>
-		State: ${count} <br />
-		Prop: ${propCount} <br />
-		Prop Doubled: ${propCountDoubled}
+		State: ${count} This increments the state using useState <br />
+		Prop: ${propCount} This changes the prop using useEffect <br />
+		Prop Doubled:  ${propCountDoubled} This keeps track of the prop value and doubles it.
 	`
 }
